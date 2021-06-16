@@ -78,3 +78,25 @@ void DeCaesar() {
 	system("pause>null");
 
 }
+void DeVernam(){
+	std::string key;
+	std::cout << "Введите ключ для дешифрования: \n";
+	std::cin >> key;
+	std::string s;
+	std::cout << "Введите текст для дешифрования: \n";
+	std::cin >> s;
+	int len = s.length(); // запоминаем длину строки 
+	//std::vector<int> key(len); //вектор длиной с длиной строки 
+	/*for (int i = 0; i < len; i++)
+	{
+		key[i] = rand() % 255;
+	}*/
+	std::string resultString = ""; //расшифрованная  строка , изначально пустая
+	for (int i = 0; i < len; i++)
+	{
+		resultString += (char)(s[i] ^ key[i]);
+	}
+	std::cout << "Зашифрованная строка: \n" << resultString << "\n";
+	
+	system("pause>null");
+}

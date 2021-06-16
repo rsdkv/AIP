@@ -1,1 +1,2 @@
 void Caesar();
+void Vernam();

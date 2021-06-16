@@ -1,1 +1,2 @@
 void DeCaesar();
+void DeVernam();

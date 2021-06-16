@@ -61,7 +61,7 @@ bool CoderMenuNavigator(int userChoice) {
 		return false;
 	case 2:
 		system("cls"); // очищаем меню
-		//второй шифр 
+		Vernam();
 		return false;
 	case 3:
 		system("cls"); // очищаем меню
@@ -86,7 +86,7 @@ bool DecoderMenuNavigator(int userChoice){
 		return false;
 	case 2:
 		system("cls"); // очищаем меню
-		//второй шифр 
+		DeVernam();
 		return false;
 	case 3:
 		system("cls"); // очищаем меню

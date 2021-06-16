@@ -79,5 +79,31 @@ void Caesar() {
 	}
 	std::cout << "Зашифрованный текст: \n" << s;
 	system("pause>null");
+}
 
+
+void Vernam() {
+	std::string s;
+	std::cout << "Введите текст: \n";
+	std::cin >> s;
+	int len = s.length(); // запоминаем длину строки 
+	std::vector<int> key(len); //вектор длиной с длиной строки 
+	for (int i = 0; i < len; i++)
+	{
+		key[i]=rand() % 255;
+	}
+	std::string resultString=""; //закодированная строка , изначально пустая
+	for (int i = 0; i < len; i++)
+	{
+		resultString += (char)(s[i] ^ key[i]);
+	}
+	std::cout << "Зашифрованная строка: \n" << resultString << "\n";
+	std::string keyString = "";
+	for (int i = 0; i < len; i++)
+	{
+		keyString += key[i] + ', ';
+		
+	}
+	std::cout <<"Ключ шифрования: \n" << keyString << "\n";
+	system("pause>null");
 }
