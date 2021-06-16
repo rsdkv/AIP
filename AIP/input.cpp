@@ -32,6 +32,5 @@ int UserInput(int min, int max) {
 			std::cout << "¬ведите корректные данные\n"; // просим заново ввести данные
 		}
 	}
-
-
 }
+//std::string UserInputText(std::string)

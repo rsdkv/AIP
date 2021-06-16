@@ -48,10 +48,22 @@ void Caesar() {
 	std::string s;
 	std::cout << "введите текст\n";
 	std::cin >> s;
+
+	std::string res = "";
+	for (int i = 0; i < s.length(); i++)
+	{
+		if ((int)s[i] > 125 || (int)s[i] < 32)
+		{
+			std::cout << "введите корректный текст\n";
+			break;
+		}
+		res += (char)(((int)s[i] + key) % 255);
+
+	}
 	//массивы символов английского алфаваита , для работы с самим алфавитом , чтобы не обрабытывать все сиволы из ASCII
-	std::vector<char> alphabet = { 'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z' };
+	/*std::vector<char> alphabet = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
 	std::vector<char> ALPHABET = { 'A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' };
-	
+	std::vector<char> cipher
 	for (int i = 0; i < s.length(); i++)
 	{
 		for (int j = 0; j < key; ++j) {
@@ -74,10 +86,9 @@ void Caesar() {
 					s[i] = ALPHABET[point + 1];
 				}
 			}
-
 		}
-	}
-	std::cout << "Зашифрованный текст: \n" << s;
+	}*/
+	std::cout << "Зашифрованный текст: \n" << res;
 	system("pause>null");
 }
 
@@ -95,13 +106,13 @@ void Vernam() {
 	std::string resultString=""; //закодированная строка , изначально пустая
 	for (int i = 0; i < len; i++)
 	{
-		resultString += (char)(s[i] ^ key[i]);
+		resultString += (char)((int)s[i] ^ key[i]);
 	}
 	std::cout << "Зашифрованная строка: \n" << resultString << "\n";
 	std::string keyString = "";
 	for (int i = 0; i < len; i++)
 	{
-		keyString += key[i] + ', ';
+		keyString += (char)key[i];
 		
 	}
 	std::cout <<"Ключ шифрования: \n" << keyString << "\n";

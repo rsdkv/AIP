@@ -85,7 +85,7 @@ void DeVernam(){
 	std::string s;
 	std::cout << "Введите текст для дешифрования: \n";
 	std::cin >> s;
-	int len = s.length(); // запоминаем длину строки 
+	int len = key.length(); // запоминаем длину строки 
 	//std::vector<int> key(len); //вектор длиной с длиной строки 
 	/*for (int i = 0; i < len; i++)
 	{
@@ -94,7 +94,7 @@ void DeVernam(){
 	std::string resultString = ""; //расшифрованная  строка , изначально пустая
 	for (int i = 0; i < len; i++)
 	{
-		resultString += (char)(s[i] ^ key[i]);
+		resultString += (char)((int)s[i] ^ (int)key[i]);
 	}
 	std::cout << "Зашифрованная строка: \n" << resultString << "\n";
 	
