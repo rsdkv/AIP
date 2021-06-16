@@ -10,20 +10,20 @@
 #include "output.h"
 #include "input.h"
 #include "submenuNavigator.h"
-
+/* main в котором вызывается меню, из которого уже выбираются подменю и работа всего остального функционала 
+*/
 int main()
 {
 	setlocale(LC_ALL, "Russian");
-	/* печатаем меню , которое получаем из функции GetMenu
-	*/
+	//печатаем меню , которое получаем из функции GetMenu 
 	bool flag = false;
 	while (flag == false) {
-		PrintMenu(1);
+		PrintMenu(1); // печатаем первый пункт меню (основное меню находится под 1 индексом)
 		int userChoice = UserInput(1, 4);
 		if (MainMenuNavigator(userChoice) == true) {
 			flag = true; 
 		}
 	}
-	system("pause");// не позв
+
 	return 0;
 }
