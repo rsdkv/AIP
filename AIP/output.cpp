@@ -8,9 +8,9 @@
 std::vector<std::string> GetMenu(int xMenu) {
 	std::vector<std::string> mainMenu = { "Что вы хотите сделать?\n"  , "Зашифровать текст\n" , "Расшифровать текст\n" ,
 						"Посмотреть все варианты шифровок\n" , "Выход\n" };
-	std::vector<std::string> coderMenu = { "Выберите вариант шифрования \n"  , "Шифр Цезаря \n" , "Второй Шифр\n" ,
+	std::vector<std::string> coderMenu = { "Выберите вариант шифрования \n"  , "Шифр Цезаря \n" , "Шифр Вернама \n" ,
 						"Третий шифр\n" , "Выход\n" };
-	std::vector<std::string> decoderMenu = { "Выберите вариант дешифрования \n"  , "Шифр Цезаря \n" , "Второй Шифр\n" ,
+	std::vector<std::string> decoderMenu = { "Выберите вариант дешифрования \n"  , "Шифр Цезаря \n" ,"Шифр Вернама \n",
 						"Третий шифр\n" , "Выход\n" };
 	switch (xMenu)
 	{
