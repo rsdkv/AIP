@@ -138,6 +138,7 @@ bool CoderMenuNavigator(int userChoice) {
 /// </summary>
 /// <param name="userChoice"> Номер элемента меню, который выбрал пользователь </param>
 /// <returns> True если пользователь нажал "Выход"</returns>
+
 bool DecoderMenuNavigator(int userChoice) {
 	switch (userChoice)
 	{
