@@ -39,13 +39,24 @@ void Caesar() {
 
 	system("pause>null");
 }
+int GenRandomKey(int symbol){
 
+	int correctKeyVernam = (rand() % 125) + 32;
+	int message = symbol ^ correctKeyVernam;
+
+	while(message < 32 || message >125) {
+		correctKeyVernam = (rand() % 125) + 32;
+		message = symbol ^ correctKeyVernam;
+	}
+
+	return correctKeyVernam;
+}
 std::string VernamCode(std::string message) {
 	int len = message.length(); // запоминаем длину строки 
 	std::vector<int> key(len); //вектор длиной с длину строки 
 	for (int i = 0; i < len; i++)
 	{
-		key[i] = (rand() % 125) + 32;
+		key[i] = GenRandomKey(message[i]);
 	}
 	std::string resultString = ""; //закодированная строка , изначально пустая
 	for (int i = 0; i < len; i++)
@@ -79,6 +90,9 @@ void Vernam() {
 	std::cout << "Ключ шифрования: \n" << key << "\n";
 	system("pause>null");
 }
+
+
+
 void Vizhener() {
 	std::cout << "Введите строку для шифрования  \n";
 	std::string key = UserInputText(); // ключ для сдвига 

@@ -27,6 +27,17 @@ void DecoderMenu() {
 		}
 	}
 }
+void AllCoders() {
+	bool flag = false;
+	while (flag == false) {
+		PrintMenu(4);
+		int userChoice = UserInput(1, 4);
+		if (DecoderMenuNavigator(userChoice) == true) {
+			flag = true;
+		}
+	}
+
+
 
 bool MainMenuNavigator(int userChoice) {
 	switch (userChoice)

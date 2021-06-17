@@ -46,39 +46,39 @@ A B C D E F
 функия принимает строку , запрашивает ключ и выводит зашифрованную строку
 ключ может лежать в диапазоне от 1 до 25 , так как всего 26 букв в латинском алфавите
 */
+std::string CaesarDecoder(int key, std::string message) {
+	std::string res = "";
+	
+	for (int i = 0; i < message.length(); i++)
+	{
+		res += (char)(((((int)message[i] + (94 - key)) - 32) % 94) + 32);
+	}
+	return res;
+}
 void DeCaesar() {
-	std::cout << "Введите ключ для дешифрования от 1 до 25: \n";
+	std::cout << "Введите ключ для дешифрования от 1 до 94: \n";
 	int key = UserInput(1, 94); // ключ для сдвига 
 	std::cout << "Введите текст для дешифровки: \n";
-	std::string res = "";
 	std::string textToDeCode = UserInputText();
-	for (int i = 0; i < textToDeCode.length(); i++)
-	{
-		res += (char)(((((int)textToDeCode[i] + (94-key)) - 32) % 94) + 32);
-	}
-	std::cout << "Зашифрованная строка: \n" << res;
+	std::cout << "Зашифрованная строка: \n" << CaesarDecoder(key , textToDeCode);
 
 	system("pause>null");
 }
-void DeVernam(){
-	std::string key;
-	std::cout << "Введите ключ для дешифрования: \n";
-	std::cin >> key;
-	std::string s;
-	std::cout << "Введите текст для дешифрования: \n";
-	std::cin >> s;
+std::string VernamDecode(std::string message , std::string key) {
 	int len = key.length(); // запоминаем длину строки 
-	//std::vector<int> key(len); //вектор длиной с длиной строки 
-	/*for (int i = 0; i < len; i++)
-	{
-		key[i] = rand() % 255;
-	}*/
 	std::string resultString = ""; //расшифрованная  строка , изначально пустая
 	for (int i = 0; i < len; i++)
 	{
-		resultString += (char)((int)s[i] ^ (int)key[i]);
+		resultString += (char)((int)message[i] ^ (int)key[i]);
 	}
-	std::cout << "Зашифрованная строка: \n" << resultString << "\n";
-	
+	return resultString;
+}
+
+void DeVernam(){
+	std::cout << "Введите ключ для дешифрования: \n";
+	std::string key = UserInputText();
+	std::cout << "Введите текст для дешифрования: \n";
+	std::string s = UserInputText();
+	std::cout << "Зашифрованная строка: \n" << VernamDecode(s, key) << "\n";
 	system("pause>null");
 }
