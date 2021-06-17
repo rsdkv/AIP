@@ -45,7 +45,7 @@ void Caesar() {
 	std::cout << "Введите ключ для шифрования от 1 до 94: \n";
 	int key = UserInput(1, 94); // ключ для сдвига 
 	
-	std::cout << "Введите текст для шифровки: \n";
+	std::cout << "Введите текст для шифрования: \n";
 	std::string textToCode = UserInputText(); // Текст для шифровки
 
 	// шифруем текст
@@ -122,7 +122,7 @@ std::string VernamCode(std::string message) {
 /// </summary>
 void Vernam() {
 	
-	std::cout << "Введите текст: \n";
+	std::cout << "Введите текст для шифрования: \n";
 
 	// Считываем строку для шифровки
 	std::string s = UserInputText();
@@ -179,7 +179,7 @@ void Vizhner() {
 	// Вводим ключ для шифрования
 	std::string key = UserInputText(); 
 
-	std::cout << "Введите текст для шифровки: \n";
+	std::cout << "Введите текст для шифрования: \n";
 
 	// Вводим строку для шифрования
 	std::string message = UserInputText();

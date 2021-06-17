@@ -12,22 +12,30 @@ TEST_CASE("test caesar") {
 	REQUIRE(CaesarCoder(76, "Google.com") == "5]]UZSzQ][");
 	REQUIRE(CaesarCoder(56, "slovo") == "MFIPI");
 	REQUIRE(CaesarCoder(33, "Higher School of Economics") == "i,*+(5At&+22/A2)Af&2120,&6");
-	REQUIRE(CaesarCoder(90, "Republic of Tatarstan") == "Nalq^he_zkbzP]p]nop]j");
-	REQUIRE(CaesarCoder(68, "BIB203") == "(/(vtw");
-	REQUIRE(CaesarCoder(77, "Sadykov Robert") == "BPShZ^emA^QTac");
+	REQUIRE(CaesarCoder(70, "who are you") == "_PWfIZMfaW]");
 }
-//TEST_CASE("test caesar") {
-//	CHECK(CaesarCoder(3, "abc") == "def");
-//	CHECK(CaesarCoder(1, "abc") == "bcd");
-//	CHECK(CaesarCoder(5, "qwe") == "v|j");
-//	CHECK(CaesarCoder(7, "hello , world") == "olssv'3' vysk'");
-//	CHECK(CaesarCoder(10, "kickflip") == "usmupvsz");
-//	CHECK(CaesarCoder(21, "oooooo") == "&&&&&&");
-//	CHECK(CaesarCoder(29, "YouTube.com") == "v.4q4!$K"., ");
-//		CHECK(CaesarCoder(76, "Google.com") == "5]]UZSzQ][");
-//	CHECK(CaesarCoder(56, "slovo") == "MFIPI");
-//	CHECK(CaesarCoder(33, "Higher School of Economics") == "i,*+(5At&+22/A2)Af&2120,&6");
-//	CHECK(CaesarCoder(90, "Republic of Tatarstan") == "Nalq^he_zkbzP]p]nop]j");
-//	CHECK(CaesarCoder(68, "BIB203") == "(/(vtw");
-//	CHECK(CaesarCoder(77, "Sadykov Robert") == "BPShZ^emA^QTac");
-//}
+
+TEST_CASE("test Vizhner") {
+	REQUIRE(VizhnerCode("helloworld", "hi") == "RPVWYbY]VO");
+	REQUIRE(VizhnerCode("helloworld", "HI") == "20679B9=6/");
+	REQUIRE(VizhnerCode("message", "TEST") == "C,HI7.:");
+	REQUIRE(VizhnerCode("message", "text") == "cLmiWN_");
+	REQUIRE(VizhnerCode("basketball", "football") == "JRdaIWPOT]");
+	REQUIRE(VizhnerCode("How are you?", "hand") == "2RgdKUUdcRe%");
+}
+TEST_CASE("test DeCaesar") {
+	REQUIRE(CaesarDecoder(3, "def") == "abc");
+	REQUIRE(CaesarDecoder(1, "bcd") == "abc");
+	REQUIRE(CaesarDecoder(5, "v|j") == "qwe");
+	REQUIRE(CaesarDecoder(10, "usmupvsz") == "kickflip");
+	REQUIRE(CaesarDecoder(49, ",BH'H58") == "YouTube");
+	REQUIRE(CaesarDecoder(56, "MFIPI") == "slovo");
+	REQUIRE(CaesarDecoder(70, "_PWfIZMfaW]") == "who are you");
+}
+TEST_CASE("test DeVizhner") {
+	REQUIRE(VizhnerDecode("RPVWYbY]VO", "hi") == "helloworld");
+	REQUIRE(VizhnerDecode("20679B9=6/", "HI") == "helloworld");
+	REQUIRE(VizhnerDecode("C,HI7.:", "TEST") == "message");
+	REQUIRE(VizhnerDecode("cLmiWN_", "text") == "message");
+	REQUIRE(VizhnerDecode("JRdaIWPOT]", "football") == "basketball");
+}
