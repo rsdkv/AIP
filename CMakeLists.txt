@@ -7,3 +7,9 @@ project ("AIP")
 
 # Включите подпроекты.
 add_subdirectory ("AIP")
+
+#подключаем тесты 
+enable_testing()
+add_subdirectory(external/doctest)
+include(external/doctest/doctest.cmake)
+include_directories(external/doctest)
