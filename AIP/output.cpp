@@ -5,7 +5,6 @@
 #include "submenuNavigator.h"
 #include <vector>
 
-
 std::vector<std::string> GetMenu(int xMenu) {
 
 	// Главное меню

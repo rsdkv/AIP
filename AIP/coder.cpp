@@ -26,7 +26,7 @@ void Caesar() {
 
 	std::cout << "Enter the encryption key from 1 to 94: \n";
 	int key = UserInput(1, 94); // ключ для сдвига 
-	
+
 	std::cout << "Enter the encryption text: \n";
 	std::string textToCode = UserInputText(); // Текст для шифровки
 
@@ -68,7 +68,7 @@ std::string VernamCode(std::string message) {
 	}
 
 	//закодированная строка , изначально пустая
-	std::string resultString = ""; 
+	std::string resultString = "";
 
 	// Проходим циклом по строке и шифруем каждый символ случайным ключом
 	for (int i = 0; i < len; i++)
@@ -92,7 +92,7 @@ std::string VernamCode(std::string message) {
 /// Функция, которая производит взаимодействия с пользователем (вывод сообщений и ввод данных)
 /// </summary>
 void Vernam() {
-	
+
 	std::cout << "Enter the encryption text: \n";
 
 	// Считываем строку для шифровки
@@ -108,7 +108,7 @@ void Vernam() {
 	// проходим циклом по строке, которую вернула функция VernamCode до середины - это будет зашифрованная строка
 	for (int i = 0; i < messageKey.length() / 2; i++)
 	{
-		message += messageKey[i]; 
+		message += messageKey[i];
 	}
 	std::cout << "The encrypted string: \n" << message << "\n";
 
@@ -122,10 +122,10 @@ void Vernam() {
 }
 
 std::string VizhnerCode(std::string message, std::string key) {
-	std::string resultString="";
+	std::string resultString = "";
 	for (int i = 0; i < message.length(); i++)
 	{
-		resultString += ((((int)message[i] - 32 + (int)key[i % key.length()] - 32) % 94 ) + 32 );
+		resultString += ((((int)message[i] - 32 + (int)key[i % key.length()] - 32) % 94) + 32);
 	}
 	return resultString;
 }
@@ -136,7 +136,7 @@ void Vizhner() {
 	std::cout << "Enter the key (any word) for encryption: \n";
 
 	// Вводим ключ для шифрования
-	std::string key = UserInputText(); 
+	std::string key = UserInputText();
 
 	std::cout << "Enter the encryption text: \n";
 

@@ -16,6 +16,9 @@ TEST_CASE("test caesar") {
 }
 
 TEST_CASE("test Vizhner") {
+	REQUIRE(VizhnerCode("helloworld", "haha") == "RHVOYZYUVG");
+	REQUIRE(VizhnerCode("never sleep", "qwerty") == "a^]YhyfeLYf");
+	REQUIRE(VizhnerCode("qwertyuiop", "abc") == "T[JUX^XMTS");
 	REQUIRE(VizhnerCode("helloworld", "hi") == "RPVWYbY]VO");
 	REQUIRE(VizhnerCode("helloworld", "HI") == "20679B9=6/");
 	REQUIRE(VizhnerCode("message", "TEST") == "C,HI7.:");
@@ -38,4 +41,8 @@ TEST_CASE("test DeVizhner") {
 	REQUIRE(VizhnerDecode("C,HI7.:", "TEST") == "message");
 	REQUIRE(VizhnerDecode("cLmiWN_", "text") == "message");
 	REQUIRE(VizhnerDecode("JRdaIWPOT]", "football") == "basketball");
+	REQUIRE(VizhnerDecode("RHVOYZYUVG", "haha") == "helloworld");
+	REQUIRE(VizhnerDecode("a^]YhyfeLYf", "qwerty") == "never sleep");
+	REQUIRE(VizhnerDecode("T[JUX^XMTS", "abc") == "qwertyuiop");
+	
 }
