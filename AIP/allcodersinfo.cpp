@@ -1,26 +1,26 @@
-#include <iostream>
+﻿#include <iostream>
 
 void InfoAboutCaesar() {
-	std::cout << "В данном подменю вы можете посмотреть, как работает шифр Цезаря \n";
-	std::cout << "	В данном алгоритме шифрования происходит сдвиг текста на определённый ключ,\n";
-	std::cout << "который вводит пользователь. Ключ должен лежать в диапазоне от 1 до 94, \n";
-	std::cout << "потому что реализована только нужная часть ASCII-кода. Все алгоритмы работают \n";
-	std::cout << "только с латинским алфавитом. Для дешифрования потребуется кодируемый текст и ключ. \n";
+	std::cout << "In this submenu, you can see how the Caesar cipher works \n";
+	std::cout << "In this encryption algorithm, the text is shifted to a specific key,\n";
+	std::cout < < " which is entered by the user. The key must be in the range from 1 to 94, \n";
+	std::cout < < " because only the necessary part of the ASCII code is implemented. All algorithms work \n";
+	std::cout << "only with the Latin alphabet. Decryption requires the encoded text and the key. \n";
 	system("pause>null");
 }
 void InfoAboutVernam() {
-	std::cout << "В данном подменю вы можете посмотреть, как работает шифр Вернама \n";
-	std::cout << "	В данном алгоритме шифрования генерируется случайный ключ , который  \n";
-	std::cout << "равен по длине шифруемому и зашиврованному сообщению. Каждый символ введённого \n";
-	std::cout << "сообщения шифруется с помощью индивидуального ключа. Все алгоритмы работают \n";
-	std::cout << "только с латинским алфавитом. Для дешифрования потребуется кодируемый текст и ключ. \n";
+	std::cout << "In this submenu, you can see how the Vernam cipher works \n";
+	std::cout << " In this encryption algorithm, a random key is generated that \n";
+	std::cout < < " is equal in length to the encrypted and encrypted message. Each character of the entered \ n";
+	std::cout << "message is encrypted with an individual key. All algorithms work \n";
+	std::cout << "only with the Latin alphabet. Decryption requires the encoded text and the key. \n";
 	system("pause>null");
 }
 void InfoAboutVizhner() {
-	std::cout << "В данном подменю вы можете посмотреть, как работает шифр Виженера \n";
-	std::cout << "	В данном алгоритме шифрования генерируется случайный ключ , который  \n";
-	std::cout << "равен по длине шифруемому и зашиврованному сообщению. Каждый символ введённого \n";
-	std::cout << "сообщения шифруется с помощью индивидуального ключа. Все алгоритмы работают \n";
-	std::cout << "только с латинским алфавитом. Для дешифрования потребуется кодируемый текст и ключ. \n";
+	std::cout << "In this submenu, you can see how the Vigener cipher works \n";
+	std::cout << " This encryption algorithm generates a random key that \n";
+	std::cout < < " is equal in length to the encrypted and encrypted message. Each character of the entered \ n";
+	std::cout << "message is encrypted with an individual key. All algorithms work \n";
+	std::cout << "only with the Latin alphabet. Decryption requires the encoded text and the key. \n";
 	system("pause>null");
 }
