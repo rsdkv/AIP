@@ -10,6 +10,7 @@
 #include "output.h"
 #include "input.h"
 #include "submenuNavigator.h"
+//
 /* main в котором вызывается меню, из которого уже выбираются подменю и работа всего приложения 
 */
 int main()
