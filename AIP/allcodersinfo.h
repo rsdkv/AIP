@@ -4,16 +4,16 @@
 */
 
 /**
-* Информация о шифре Цезаря для пользователя 
+* Информация о шифре Цезаря для пользователя вызывается в CipherMenuNavigator в файле submenuNavigator.cpp
 */
 void InfoAboutCaesar();
 
 /**
-* Информация о шифре Вернама для пользователя 
+* Информация о шифре Вернама для пользователя вызывается в CipherMenuNavigator в файле submenuNavigator.cpp
 */
 void InfoAboutVernam();
 
 /**
-* Информация о шифре Вижнера для пользователя 
+* Информация о шифре Вижнера для пользователя вызывается в CipherMenuNavigator в файле submenuNavigator.cpp
 */
 void InfoAboutVizhner();
