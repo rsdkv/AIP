@@ -5,11 +5,14 @@ cmake_minimum_required (VERSION 3.8)
 
 project ("AIP")
 
-# Включите подпроекты.
-add_subdirectory ("AIP")
+add_library(default INTERFACE)
+target_compile_features(default INTERFACE cxx_std_17)
 
 #подключаем тесты 
 enable_testing()
 add_subdirectory(external/doctest)
 include(external/doctest/doctest.cmake)
 include_directories(external/doctest)
+
+# Включите подпроекты.
+add_subdirectory ("AIP")

@@ -1,0 +1,2 @@
+void InfoAboutCaesar();
+void InfoAboutVernam();

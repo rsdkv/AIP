@@ -5,6 +5,7 @@
 #include "submenuNavigator.h"
 #include "coder.h"
 #include "decoder.h"
+#include "allcodersinfo.h"
 
 /// <summary>
 /// Функция осуществляющая вывод меню кодировок и обрабатывающая ввод пользователя
@@ -145,7 +146,6 @@ bool DecoderMenuNavigator(int userChoice) {
 	case 1:
 		system("cls"); // очищаем меню
 		DeCaesar(); //шифр цезаря 
-		std::cout << "Шифр Цезаря\n";
 		return false;
 	case 2:
 		system("cls"); // очищаем меню
@@ -175,11 +175,12 @@ bool CipherMenuNavigator(int userChoice) {
 	case 1:
 		system("cls"); // очищаем меню
 		//шифр цезаря 
-		std::cout << "Шифр Цезаря\n";
+		InfoAboutCaesar();
 		return false;
 	case 2:
 		system("cls"); // очищаем меню
-		//второй шифр 
+		//шифр Вернама 
+		InfoAboutVernam();
 		return false;
 	case 3:
 		system("cls"); // очищаем меню
