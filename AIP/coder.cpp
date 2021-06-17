@@ -33,7 +33,7 @@ void Caesar() {
 	// шифруем текст
 	std::string res = CaesarCoder(key, textToCode);
 
-	std::cout << "Encrypted string: \n" << res;
+	std::cout << "The encrypted string: \n" << res;
 
 	system("pause>null");
 }
@@ -110,14 +110,14 @@ void Vernam() {
 	{
 		message += messageKey[i]; 
 	}
-	std::cout << "Encrypted string: \n" << message << "\n";
+	std::cout << "The encrypted string: \n" << message << "\n";
 
 	// проходим циклом по строке, которую вернула функция VernamCode с середины до конца - это будет ключ
 	for (int i = messageKey.length() / 2; i < messageKey.length(); i++)
 	{
 		key += messageKey[i];
 	}
-	std::cout << "Encryption Key: \n" << key << "\n";
+	std::cout << "The encryption key: \n" << key << "\n";
 	system("pause>null");
 }
 
@@ -144,6 +144,6 @@ void Vizhner() {
 	std::string message = UserInputText();
 
 	// Шифруем и выводим результат
-	std::cout << "Encrypted string: \n" << VizhnerCode(message, key) << "\n";
+	std::cout << "The encrypted string: \n" << VizhnerCode(message, key) << "\n";
 	system("pause>null");
 }

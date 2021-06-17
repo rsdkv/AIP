@@ -33,7 +33,7 @@ void DeCaesar() {
 	std::string textToDeCode = UserInputText();
 
 	// Рашсифровка
-	std::cout << "Encrypted string: \n" << CaesarDecoder(key , textToDeCode);
+	std::cout << "The encrypted string: \n" << CaesarDecoder(key , textToDeCode);
 
 	system("pause>null");
 }
@@ -70,7 +70,7 @@ void DeVernam(){
 	std::string s = UserInputText();
 
 	// Расшифровка
-	std::cout << "Encrypted string: \n" << VernamDecode(s, key) << "\n";
+	std::cout << "The encrypted string: \n" << VernamDecode(s, key) << "\n";
 
 	system("pause>null");
 }
@@ -109,6 +109,6 @@ void DeVizhener() {
 	std::string message = UserInputText();
 
 	// Рашифровываем
-	std::cout << "Decrypted string: \n" << VizhnerDecode(message, key) << "\n";
+	std::cout << "The decrypted string: \n" << VizhnerDecode(message, key) << "\n";
 	system("pause>null");
 }

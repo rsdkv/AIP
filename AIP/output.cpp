@@ -9,20 +9,20 @@
 std::vector<std::string> GetMenu(int xMenu) {
 
 	// Главное меню
-	std::vector<std::string> mainMenu = { "What do you want to do?\n"  , "Encrypt Text\n" , "Decrypt the text\n" ,
-						"View all encryption algorithms\n" , "Exit\n" };
+	std::vector<std::string> mainMenu = { "What do you want to do?\n"  , "Encrypt text\n" , "Decrypt text\n" ,
+						"View all ciphers\n" , "Exit\n" };
 
 	// Меню выбора метода шифрования
-	std::vector<std::string> coderMenu = { "Select the encryption option\n"  , "Caesar's Cipher\n" , "Vernam Cipher\n" ,
-						"Vigener Cipher\n" , "Exit\n" };
+	std::vector<std::string> coderMenu = { "Select the encryption option\n"  , "Caesar's cipher\n" , "Vernam's cipher\n" ,
+						"Vigener's cipher\n" , "Exit\n" };
 
 	// Меню выбора метода дешифровки
-	std::vector<std::string> decoderMenu = { "Select the decryption option\n"  , "Caesar's Cipher\n" ,"Vernam Cipher\n",
-						"Vigener Cipher\n" , "Exit\n" };
+	std::vector<std::string> decoderMenu = { "Select the decryption option\n"  , "Caesar's cipher\n" ,"Vernam's cipher\n",
+						"Vigener's cipher\n" , "Exit\n" };
 
 	// Меню выбора метода шифрования для показа информации о них
-	std::vector<std::string> AllCodersMenu = { "Select the encryption you want to read about\n"  , "Caesar's Cipher\n" ,"Vernam Cipher\n",
-						"Vigener Cipher\n" , "Exit\n" };
+	std::vector<std::string> AllCodersMenu = { "Select the encryption you want to read about\n"  , "Caesar's cipher\n" ,"Vernam's cipher\n",
+						"Vigener's cipher\n" , "Exit\n" };
 
 	// Возвращаем нужное нам меню
 	switch (xMenu)
