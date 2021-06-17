@@ -24,16 +24,16 @@ std::string CaesarCoder(int key, std::string message) {
 
 void Caesar() {
 
-	std::cout << "Введите ключ для шифрования от 1 до 94: \n";
+	std::cout << "Enter the encryption key from 1 to 94: \n";
 	int key = UserInput(1, 94); // ключ для сдвига 
 	
-	std::cout << "Введите текст для шифрования: \n";
+	std::cout << "Enter the encryption text: \n";
 	std::string textToCode = UserInputText(); // Текст для шифровки
 
 	// шифруем текст
 	std::string res = CaesarCoder(key, textToCode);
 
-	std::cout << "Зашифрованная строка: \n" << res;
+	std::cout << "Encrypted string: \n" << res;
 
 	system("pause>null");
 }
@@ -93,7 +93,7 @@ std::string VernamCode(std::string message) {
 /// </summary>
 void Vernam() {
 	
-	std::cout << "Введите текст для шифрования: \n";
+	std::cout << "Enter the encryption text: \n";
 
 	// Считываем строку для шифровки
 	std::string s = UserInputText();
@@ -110,14 +110,14 @@ void Vernam() {
 	{
 		message += messageKey[i]; 
 	}
-	std::cout << "Зашифрованная строка: \n" << message << "\n";
+	std::cout << "Encrypted string: \n" << message << "\n";
 
 	// проходим циклом по строке, которую вернула функция VernamCode с середины до конца - это будет ключ
 	for (int i = messageKey.length() / 2; i < messageKey.length(); i++)
 	{
 		key += messageKey[i];
 	}
-	std::cout << "Ключ шифрования: \n" << key << "\n";
+	std::cout << "Encryption Key: \n" << key << "\n";
 	system("pause>null");
 }
 
@@ -133,17 +133,17 @@ std::string VizhnerCode(std::string message, std::string key) {
 
 void Vizhner() {
 
-	std::cout << "Введите ключ (любое слово) для шифрования: \n";
+	std::cout << "Enter the key (any word) for encryption: \n";
 
 	// Вводим ключ для шифрования
 	std::string key = UserInputText(); 
 
-	std::cout << "Введите текст для шифрования: \n";
+	std::cout << "Enter the encryption text: \n";
 
 	// Вводим строку для шифрования
 	std::string message = UserInputText();
 
 	// Шифруем и выводим результат
-	std::cout << "Зашифрованная строка: \n" << VizhnerCode(message, key) << "\n";
+	std::cout << "Encrypted string: \n" << VizhnerCode(message, key) << "\n";
 	system("pause>null");
 }

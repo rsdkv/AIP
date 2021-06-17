@@ -73,15 +73,15 @@ external/doctest/CMakeFiles/doctest.dir/doctest.cpp.obj: external/doctest/CMakeF
 external/doctest/CMakeFiles/doctest.dir/doctest.cpp.obj: ../external/doctest/doctest.cpp
 external/doctest/CMakeFiles/doctest.dir/doctest.cpp.obj: external/doctest/CMakeFiles/doctest.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Roberto\source\repos\AIP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/doctest/CMakeFiles/doctest.dir/doctest.cpp.obj"
-	cd /d C:\Users\Roberto\source\repos\AIP\build\external\doctest && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/doctest/CMakeFiles/doctest.dir/doctest.cpp.obj -MF CMakeFiles\doctest.dir\doctest.cpp.obj.d -o CMakeFiles\doctest.dir\doctest.cpp.obj -c C:\Users\Roberto\source\repos\AIP\external\doctest\doctest.cpp
+	cd /d C:\Users\Roberto\source\repos\AIP\build\external\doctest && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/doctest/CMakeFiles/doctest.dir/doctest.cpp.obj -MF CMakeFiles\doctest.dir\doctest.cpp.obj.d -o CMakeFiles\doctest.dir\doctest.cpp.obj -c C:\Users\Roberto\source\repos\AIP\external\doctest\doctest.cpp
 
 external/doctest/CMakeFiles/doctest.dir/doctest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/doctest.dir/doctest.cpp.i"
-	cd /d C:\Users\Roberto\source\repos\AIP\build\external\doctest && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Roberto\source\repos\AIP\external\doctest\doctest.cpp > CMakeFiles\doctest.dir\doctest.cpp.i
+	cd /d C:\Users\Roberto\source\repos\AIP\build\external\doctest && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Roberto\source\repos\AIP\external\doctest\doctest.cpp > CMakeFiles\doctest.dir\doctest.cpp.i
 
 external/doctest/CMakeFiles/doctest.dir/doctest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/doctest.dir/doctest.cpp.s"
-	cd /d C:\Users\Roberto\source\repos\AIP\build\external\doctest && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Roberto\source\repos\AIP\external\doctest\doctest.cpp -o CMakeFiles\doctest.dir\doctest.cpp.s
+	cd /d C:\Users\Roberto\source\repos\AIP\build\external\doctest && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Roberto\source\repos\AIP\external\doctest\doctest.cpp -o CMakeFiles\doctest.dir\doctest.cpp.s
 
 # Object files for target doctest
 doctest_OBJECTS = \

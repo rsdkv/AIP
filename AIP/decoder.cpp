@@ -22,18 +22,18 @@ std::string CaesarDecoder(int key, std::string message) {
 
 void DeCaesar() {
 
-	std::cout << "Введите ключ для дешифрования от 1 до 94: \n";
+	std::cout << "Enter the decryption key from 1 to 94: \n";
 
 	// ключ для сдвига (от 1 до 94)
 	int key = UserInput(1, 94); 
 
-	std::cout << "Введите текст для дешифровки: \n";
+	std::cout << "Enter the decryption text: \n";
 
 	// Зашифрованный текст
 	std::string textToDeCode = UserInputText();
 
 	// Рашсифровка
-	std::cout << "Зашифрованная строка: \n" << CaesarDecoder(key , textToDeCode);
+	std::cout << "Encrypted string: \n" << CaesarDecoder(key , textToDeCode);
 
 	system("pause>null");
 }
@@ -59,18 +59,18 @@ std::string VernamDecode(std::string message , std::string key) {
 
 void DeVernam(){
 
-	std::cout << "Введите ключ для дешифрования: \n";
+	std::cout << "Enter the decryption key: \n";
 
 	// Ввод ключа
 	std::string key = UserInputText();
 
-	std::cout << "Введите текст для дешифрования: \n";
+	std::cout << "Enter the decryption text: \n";
 
 	// Ввод зашифрованной строки
 	std::string s = UserInputText();
 
 	// Расшифровка
-	std::cout << "Зашифрованная строка: \n" << VernamDecode(s, key) << "\n";
+	std::cout << "Encrypted string: \n" << VernamDecode(s, key) << "\n";
 
 	system("pause>null");
 }
@@ -96,17 +96,17 @@ std::string VizhnerDecode(std::string message, std::string key) {
 
 void DeVizhener() {
 
-	std::cout << "Введите ключ (слово) для дешифрования: \n";
+	std::cout << "Enter the decryption key (word) : \n";
 
 	// Считываем ключ
 	std::string key = UserInputText();
 
-	std::cout << "Введите текст для дешифровки: \n";
+	std::cout << "Enter the decryption text: \n";
 
 	// Считываем зашифрованное сообщение
 	std::string message = UserInputText();
 
 	// Рашифровываем
-	std::cout << "Дешифрованная строка: \n" << VizhnerDecode(message, key) << "\n";
+	std::cout << "Decrypted string: \n" << VizhnerDecode(message, key) << "\n";
 	system("pause>null");
 }

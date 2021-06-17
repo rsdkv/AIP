@@ -73,105 +73,105 @@ AIP/CMakeFiles/AIP.dir/AIP.cpp.obj: AIP/CMakeFiles/AIP.dir/includes_CXX.rsp
 AIP/CMakeFiles/AIP.dir/AIP.cpp.obj: ../AIP/AIP.cpp
 AIP/CMakeFiles/AIP.dir/AIP.cpp.obj: AIP/CMakeFiles/AIP.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Roberto\source\repos\AIP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object AIP/CMakeFiles/AIP.dir/AIP.cpp.obj"
-	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT AIP/CMakeFiles/AIP.dir/AIP.cpp.obj -MF CMakeFiles\AIP.dir\AIP.cpp.obj.d -o CMakeFiles\AIP.dir\AIP.cpp.obj -c C:\Users\Roberto\source\repos\AIP\AIP\AIP.cpp
+	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT AIP/CMakeFiles/AIP.dir/AIP.cpp.obj -MF CMakeFiles\AIP.dir\AIP.cpp.obj.d -o CMakeFiles\AIP.dir\AIP.cpp.obj -c C:\Users\Roberto\source\repos\AIP\AIP\AIP.cpp
 
 AIP/CMakeFiles/AIP.dir/AIP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AIP.dir/AIP.cpp.i"
-	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Roberto\source\repos\AIP\AIP\AIP.cpp > CMakeFiles\AIP.dir\AIP.cpp.i
+	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Roberto\source\repos\AIP\AIP\AIP.cpp > CMakeFiles\AIP.dir\AIP.cpp.i
 
 AIP/CMakeFiles/AIP.dir/AIP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AIP.dir/AIP.cpp.s"
-	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Roberto\source\repos\AIP\AIP\AIP.cpp -o CMakeFiles\AIP.dir\AIP.cpp.s
+	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Roberto\source\repos\AIP\AIP\AIP.cpp -o CMakeFiles\AIP.dir\AIP.cpp.s
 
 AIP/CMakeFiles/AIP.dir/input.cpp.obj: AIP/CMakeFiles/AIP.dir/flags.make
 AIP/CMakeFiles/AIP.dir/input.cpp.obj: AIP/CMakeFiles/AIP.dir/includes_CXX.rsp
 AIP/CMakeFiles/AIP.dir/input.cpp.obj: ../AIP/input.cpp
 AIP/CMakeFiles/AIP.dir/input.cpp.obj: AIP/CMakeFiles/AIP.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Roberto\source\repos\AIP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object AIP/CMakeFiles/AIP.dir/input.cpp.obj"
-	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT AIP/CMakeFiles/AIP.dir/input.cpp.obj -MF CMakeFiles\AIP.dir\input.cpp.obj.d -o CMakeFiles\AIP.dir\input.cpp.obj -c C:\Users\Roberto\source\repos\AIP\AIP\input.cpp
+	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT AIP/CMakeFiles/AIP.dir/input.cpp.obj -MF CMakeFiles\AIP.dir\input.cpp.obj.d -o CMakeFiles\AIP.dir\input.cpp.obj -c C:\Users\Roberto\source\repos\AIP\AIP\input.cpp
 
 AIP/CMakeFiles/AIP.dir/input.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AIP.dir/input.cpp.i"
-	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Roberto\source\repos\AIP\AIP\input.cpp > CMakeFiles\AIP.dir\input.cpp.i
+	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Roberto\source\repos\AIP\AIP\input.cpp > CMakeFiles\AIP.dir\input.cpp.i
 
 AIP/CMakeFiles/AIP.dir/input.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AIP.dir/input.cpp.s"
-	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Roberto\source\repos\AIP\AIP\input.cpp -o CMakeFiles\AIP.dir\input.cpp.s
+	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Roberto\source\repos\AIP\AIP\input.cpp -o CMakeFiles\AIP.dir\input.cpp.s
 
 AIP/CMakeFiles/AIP.dir/output.cpp.obj: AIP/CMakeFiles/AIP.dir/flags.make
 AIP/CMakeFiles/AIP.dir/output.cpp.obj: AIP/CMakeFiles/AIP.dir/includes_CXX.rsp
 AIP/CMakeFiles/AIP.dir/output.cpp.obj: ../AIP/output.cpp
 AIP/CMakeFiles/AIP.dir/output.cpp.obj: AIP/CMakeFiles/AIP.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Roberto\source\repos\AIP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object AIP/CMakeFiles/AIP.dir/output.cpp.obj"
-	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT AIP/CMakeFiles/AIP.dir/output.cpp.obj -MF CMakeFiles\AIP.dir\output.cpp.obj.d -o CMakeFiles\AIP.dir\output.cpp.obj -c C:\Users\Roberto\source\repos\AIP\AIP\output.cpp
+	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT AIP/CMakeFiles/AIP.dir/output.cpp.obj -MF CMakeFiles\AIP.dir\output.cpp.obj.d -o CMakeFiles\AIP.dir\output.cpp.obj -c C:\Users\Roberto\source\repos\AIP\AIP\output.cpp
 
 AIP/CMakeFiles/AIP.dir/output.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AIP.dir/output.cpp.i"
-	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Roberto\source\repos\AIP\AIP\output.cpp > CMakeFiles\AIP.dir\output.cpp.i
+	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Roberto\source\repos\AIP\AIP\output.cpp > CMakeFiles\AIP.dir\output.cpp.i
 
 AIP/CMakeFiles/AIP.dir/output.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AIP.dir/output.cpp.s"
-	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Roberto\source\repos\AIP\AIP\output.cpp -o CMakeFiles\AIP.dir\output.cpp.s
+	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Roberto\source\repos\AIP\AIP\output.cpp -o CMakeFiles\AIP.dir\output.cpp.s
 
 AIP/CMakeFiles/AIP.dir/submenuNavigator.cpp.obj: AIP/CMakeFiles/AIP.dir/flags.make
 AIP/CMakeFiles/AIP.dir/submenuNavigator.cpp.obj: AIP/CMakeFiles/AIP.dir/includes_CXX.rsp
 AIP/CMakeFiles/AIP.dir/submenuNavigator.cpp.obj: ../AIP/submenuNavigator.cpp
 AIP/CMakeFiles/AIP.dir/submenuNavigator.cpp.obj: AIP/CMakeFiles/AIP.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Roberto\source\repos\AIP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object AIP/CMakeFiles/AIP.dir/submenuNavigator.cpp.obj"
-	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT AIP/CMakeFiles/AIP.dir/submenuNavigator.cpp.obj -MF CMakeFiles\AIP.dir\submenuNavigator.cpp.obj.d -o CMakeFiles\AIP.dir\submenuNavigator.cpp.obj -c C:\Users\Roberto\source\repos\AIP\AIP\submenuNavigator.cpp
+	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT AIP/CMakeFiles/AIP.dir/submenuNavigator.cpp.obj -MF CMakeFiles\AIP.dir\submenuNavigator.cpp.obj.d -o CMakeFiles\AIP.dir\submenuNavigator.cpp.obj -c C:\Users\Roberto\source\repos\AIP\AIP\submenuNavigator.cpp
 
 AIP/CMakeFiles/AIP.dir/submenuNavigator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AIP.dir/submenuNavigator.cpp.i"
-	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Roberto\source\repos\AIP\AIP\submenuNavigator.cpp > CMakeFiles\AIP.dir\submenuNavigator.cpp.i
+	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Roberto\source\repos\AIP\AIP\submenuNavigator.cpp > CMakeFiles\AIP.dir\submenuNavigator.cpp.i
 
 AIP/CMakeFiles/AIP.dir/submenuNavigator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AIP.dir/submenuNavigator.cpp.s"
-	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Roberto\source\repos\AIP\AIP\submenuNavigator.cpp -o CMakeFiles\AIP.dir\submenuNavigator.cpp.s
+	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Roberto\source\repos\AIP\AIP\submenuNavigator.cpp -o CMakeFiles\AIP.dir\submenuNavigator.cpp.s
 
 AIP/CMakeFiles/AIP.dir/coder.cpp.obj: AIP/CMakeFiles/AIP.dir/flags.make
 AIP/CMakeFiles/AIP.dir/coder.cpp.obj: AIP/CMakeFiles/AIP.dir/includes_CXX.rsp
 AIP/CMakeFiles/AIP.dir/coder.cpp.obj: ../AIP/coder.cpp
 AIP/CMakeFiles/AIP.dir/coder.cpp.obj: AIP/CMakeFiles/AIP.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Roberto\source\repos\AIP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object AIP/CMakeFiles/AIP.dir/coder.cpp.obj"
-	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT AIP/CMakeFiles/AIP.dir/coder.cpp.obj -MF CMakeFiles\AIP.dir\coder.cpp.obj.d -o CMakeFiles\AIP.dir\coder.cpp.obj -c C:\Users\Roberto\source\repos\AIP\AIP\coder.cpp
+	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT AIP/CMakeFiles/AIP.dir/coder.cpp.obj -MF CMakeFiles\AIP.dir\coder.cpp.obj.d -o CMakeFiles\AIP.dir\coder.cpp.obj -c C:\Users\Roberto\source\repos\AIP\AIP\coder.cpp
 
 AIP/CMakeFiles/AIP.dir/coder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AIP.dir/coder.cpp.i"
-	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Roberto\source\repos\AIP\AIP\coder.cpp > CMakeFiles\AIP.dir\coder.cpp.i
+	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Roberto\source\repos\AIP\AIP\coder.cpp > CMakeFiles\AIP.dir\coder.cpp.i
 
 AIP/CMakeFiles/AIP.dir/coder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AIP.dir/coder.cpp.s"
-	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Roberto\source\repos\AIP\AIP\coder.cpp -o CMakeFiles\AIP.dir\coder.cpp.s
+	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Roberto\source\repos\AIP\AIP\coder.cpp -o CMakeFiles\AIP.dir\coder.cpp.s
 
 AIP/CMakeFiles/AIP.dir/decoder.cpp.obj: AIP/CMakeFiles/AIP.dir/flags.make
 AIP/CMakeFiles/AIP.dir/decoder.cpp.obj: AIP/CMakeFiles/AIP.dir/includes_CXX.rsp
 AIP/CMakeFiles/AIP.dir/decoder.cpp.obj: ../AIP/decoder.cpp
 AIP/CMakeFiles/AIP.dir/decoder.cpp.obj: AIP/CMakeFiles/AIP.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Roberto\source\repos\AIP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object AIP/CMakeFiles/AIP.dir/decoder.cpp.obj"
-	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT AIP/CMakeFiles/AIP.dir/decoder.cpp.obj -MF CMakeFiles\AIP.dir\decoder.cpp.obj.d -o CMakeFiles\AIP.dir\decoder.cpp.obj -c C:\Users\Roberto\source\repos\AIP\AIP\decoder.cpp
+	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT AIP/CMakeFiles/AIP.dir/decoder.cpp.obj -MF CMakeFiles\AIP.dir\decoder.cpp.obj.d -o CMakeFiles\AIP.dir\decoder.cpp.obj -c C:\Users\Roberto\source\repos\AIP\AIP\decoder.cpp
 
 AIP/CMakeFiles/AIP.dir/decoder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AIP.dir/decoder.cpp.i"
-	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Roberto\source\repos\AIP\AIP\decoder.cpp > CMakeFiles\AIP.dir\decoder.cpp.i
+	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Roberto\source\repos\AIP\AIP\decoder.cpp > CMakeFiles\AIP.dir\decoder.cpp.i
 
 AIP/CMakeFiles/AIP.dir/decoder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AIP.dir/decoder.cpp.s"
-	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Roberto\source\repos\AIP\AIP\decoder.cpp -o CMakeFiles\AIP.dir\decoder.cpp.s
+	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Roberto\source\repos\AIP\AIP\decoder.cpp -o CMakeFiles\AIP.dir\decoder.cpp.s
 
 AIP/CMakeFiles/AIP.dir/allcodersinfo.cpp.obj: AIP/CMakeFiles/AIP.dir/flags.make
 AIP/CMakeFiles/AIP.dir/allcodersinfo.cpp.obj: AIP/CMakeFiles/AIP.dir/includes_CXX.rsp
 AIP/CMakeFiles/AIP.dir/allcodersinfo.cpp.obj: ../AIP/allcodersinfo.cpp
 AIP/CMakeFiles/AIP.dir/allcodersinfo.cpp.obj: AIP/CMakeFiles/AIP.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Roberto\source\repos\AIP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object AIP/CMakeFiles/AIP.dir/allcodersinfo.cpp.obj"
-	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT AIP/CMakeFiles/AIP.dir/allcodersinfo.cpp.obj -MF CMakeFiles\AIP.dir\allcodersinfo.cpp.obj.d -o CMakeFiles\AIP.dir\allcodersinfo.cpp.obj -c C:\Users\Roberto\source\repos\AIP\AIP\allcodersinfo.cpp
+	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT AIP/CMakeFiles/AIP.dir/allcodersinfo.cpp.obj -MF CMakeFiles\AIP.dir\allcodersinfo.cpp.obj.d -o CMakeFiles\AIP.dir\allcodersinfo.cpp.obj -c C:\Users\Roberto\source\repos\AIP\AIP\allcodersinfo.cpp
 
 AIP/CMakeFiles/AIP.dir/allcodersinfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AIP.dir/allcodersinfo.cpp.i"
-	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Roberto\source\repos\AIP\AIP\allcodersinfo.cpp > CMakeFiles\AIP.dir\allcodersinfo.cpp.i
+	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Roberto\source\repos\AIP\AIP\allcodersinfo.cpp > CMakeFiles\AIP.dir\allcodersinfo.cpp.i
 
 AIP/CMakeFiles/AIP.dir/allcodersinfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AIP.dir/allcodersinfo.cpp.s"
-	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Roberto\source\repos\AIP\AIP\allcodersinfo.cpp -o CMakeFiles\AIP.dir\allcodersinfo.cpp.s
+	cd /d C:\Users\Roberto\source\repos\AIP\build\AIP && C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Roberto\source\repos\AIP\AIP\allcodersinfo.cpp -o CMakeFiles\AIP.dir\allcodersinfo.cpp.s
 
 # Object files for target AIP
 AIP_OBJECTS = \

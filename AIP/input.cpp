@@ -36,7 +36,7 @@ int UserInput(int min, int max) {
 		}
 		catch (const std::exception&) // ловим exception 
 		{
-			std::cout << "Введите корректные данные\n"; // просим заново ввести данные
+			std::cout << "Enter the correct data: \n"; // просим заново ввести данные
 		}
 	}
 }
@@ -74,7 +74,7 @@ std::string UserInputText() {
 		}
 		catch (const std::exception&) // ловим exception 
 		{
-			std::cout << "Введите корректный текст \n"; // просим заново ввести данные
+			std::cout << "Enter the correct text: \n"; // просим заново ввести данные
 		}
 	}
 }

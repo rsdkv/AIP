@@ -1,77 +1,77 @@
 [
 {
   "directory": "C:/Users/Roberto/source/repos/AIP/build/external/doctest",
-  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\g++.exe  @CMakeFiles/doctest.dir/includes_CXX.rsp -g -o CMakeFiles\\doctest.dir\\doctest.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\external\\doctest\\doctest.cpp",
+  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/doctest.dir/includes_CXX.rsp -g -o CMakeFiles\\doctest.dir\\doctest.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\external\\doctest\\doctest.cpp",
   "file": "C:/Users/Roberto/source/repos/AIP/external/doctest/doctest.cpp"
 },
 {
   "directory": "C:/Users/Roberto/source/repos/AIP/build/AIP",
-  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\g++.exe  @CMakeFiles/AIP.dir/includes_CXX.rsp -g -o CMakeFiles\\AIP.dir\\AIP.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\AIP\\AIP.cpp",
+  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/AIP.dir/includes_CXX.rsp -g -o CMakeFiles\\AIP.dir\\AIP.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\AIP\\AIP.cpp",
   "file": "C:/Users/Roberto/source/repos/AIP/AIP/AIP.cpp"
 },
 {
   "directory": "C:/Users/Roberto/source/repos/AIP/build/AIP",
-  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\g++.exe  @CMakeFiles/AIP.dir/includes_CXX.rsp -g -o CMakeFiles\\AIP.dir\\input.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\AIP\\input.cpp",
+  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/AIP.dir/includes_CXX.rsp -g -o CMakeFiles\\AIP.dir\\input.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\AIP\\input.cpp",
   "file": "C:/Users/Roberto/source/repos/AIP/AIP/input.cpp"
 },
 {
   "directory": "C:/Users/Roberto/source/repos/AIP/build/AIP",
-  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\g++.exe  @CMakeFiles/AIP.dir/includes_CXX.rsp -g -o CMakeFiles\\AIP.dir\\output.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\AIP\\output.cpp",
+  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/AIP.dir/includes_CXX.rsp -g -o CMakeFiles\\AIP.dir\\output.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\AIP\\output.cpp",
   "file": "C:/Users/Roberto/source/repos/AIP/AIP/output.cpp"
 },
 {
   "directory": "C:/Users/Roberto/source/repos/AIP/build/AIP",
-  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\g++.exe  @CMakeFiles/AIP.dir/includes_CXX.rsp -g -o CMakeFiles\\AIP.dir\\submenuNavigator.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\AIP\\submenuNavigator.cpp",
+  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/AIP.dir/includes_CXX.rsp -g -o CMakeFiles\\AIP.dir\\submenuNavigator.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\AIP\\submenuNavigator.cpp",
   "file": "C:/Users/Roberto/source/repos/AIP/AIP/submenuNavigator.cpp"
 },
 {
   "directory": "C:/Users/Roberto/source/repos/AIP/build/AIP",
-  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\g++.exe  @CMakeFiles/AIP.dir/includes_CXX.rsp -g -o CMakeFiles\\AIP.dir\\coder.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\AIP\\coder.cpp",
+  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/AIP.dir/includes_CXX.rsp -g -o CMakeFiles\\AIP.dir\\coder.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\AIP\\coder.cpp",
   "file": "C:/Users/Roberto/source/repos/AIP/AIP/coder.cpp"
 },
 {
   "directory": "C:/Users/Roberto/source/repos/AIP/build/AIP",
-  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\g++.exe  @CMakeFiles/AIP.dir/includes_CXX.rsp -g -o CMakeFiles\\AIP.dir\\decoder.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\AIP\\decoder.cpp",
+  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/AIP.dir/includes_CXX.rsp -g -o CMakeFiles\\AIP.dir\\decoder.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\AIP\\decoder.cpp",
   "file": "C:/Users/Roberto/source/repos/AIP/AIP/decoder.cpp"
 },
 {
   "directory": "C:/Users/Roberto/source/repos/AIP/build/AIP",
-  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\g++.exe  @CMakeFiles/AIP.dir/includes_CXX.rsp -g -o CMakeFiles\\AIP.dir\\allcodersinfo.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\AIP\\allcodersinfo.cpp",
+  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/AIP.dir/includes_CXX.rsp -g -o CMakeFiles\\AIP.dir\\allcodersinfo.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\AIP\\allcodersinfo.cpp",
   "file": "C:/Users/Roberto/source/repos/AIP/AIP/allcodersinfo.cpp"
 },
 {
   "directory": "C:/Users/Roberto/source/repos/AIP/build/AIP",
-  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\g++.exe  @CMakeFiles/AIP_test.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AIP_test.dir\\test.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\AIP\\test.cpp",
+  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/AIP_test.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AIP_test.dir\\test.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\AIP\\test.cpp",
   "file": "C:/Users/Roberto/source/repos/AIP/AIP/test.cpp"
 },
 {
   "directory": "C:/Users/Roberto/source/repos/AIP/build/AIP",
-  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\g++.exe  @CMakeFiles/AIP_test.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AIP_test.dir\\input.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\AIP\\input.cpp",
+  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/AIP_test.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AIP_test.dir\\input.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\AIP\\input.cpp",
   "file": "C:/Users/Roberto/source/repos/AIP/AIP/input.cpp"
 },
 {
   "directory": "C:/Users/Roberto/source/repos/AIP/build/AIP",
-  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\g++.exe  @CMakeFiles/AIP_test.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AIP_test.dir\\output.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\AIP\\output.cpp",
+  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/AIP_test.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AIP_test.dir\\output.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\AIP\\output.cpp",
   "file": "C:/Users/Roberto/source/repos/AIP/AIP/output.cpp"
 },
 {
   "directory": "C:/Users/Roberto/source/repos/AIP/build/AIP",
-  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\g++.exe  @CMakeFiles/AIP_test.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AIP_test.dir\\submenuNavigator.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\AIP\\submenuNavigator.cpp",
+  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/AIP_test.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AIP_test.dir\\submenuNavigator.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\AIP\\submenuNavigator.cpp",
   "file": "C:/Users/Roberto/source/repos/AIP/AIP/submenuNavigator.cpp"
 },
 {
   "directory": "C:/Users/Roberto/source/repos/AIP/build/AIP",
-  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\g++.exe  @CMakeFiles/AIP_test.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AIP_test.dir\\coder.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\AIP\\coder.cpp",
+  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/AIP_test.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AIP_test.dir\\coder.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\AIP\\coder.cpp",
   "file": "C:/Users/Roberto/source/repos/AIP/AIP/coder.cpp"
 },
 {
   "directory": "C:/Users/Roberto/source/repos/AIP/build/AIP",
-  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\g++.exe  @CMakeFiles/AIP_test.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AIP_test.dir\\decoder.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\AIP\\decoder.cpp",
+  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/AIP_test.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AIP_test.dir\\decoder.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\AIP\\decoder.cpp",
   "file": "C:/Users/Roberto/source/repos/AIP/AIP/decoder.cpp"
 },
 {
   "directory": "C:/Users/Roberto/source/repos/AIP/build/AIP",
-  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\g++.exe  @CMakeFiles/AIP_test.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AIP_test.dir\\allcodersinfo.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\AIP\\allcodersinfo.cpp",
+  "command": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/AIP_test.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AIP_test.dir\\allcodersinfo.cpp.obj -c C:\\Users\\Roberto\\source\\repos\\AIP\\AIP\\allcodersinfo.cpp",
   "file": "C:/Users/Roberto/source/repos/AIP/AIP/allcodersinfo.cpp"
 }
 ]

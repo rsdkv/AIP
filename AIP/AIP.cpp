@@ -15,7 +15,7 @@
 int main()
 {
 	// Устанавливаем локаль
-	setlocale(LC_ALL, "Russian");
+	//setlocale(LC_ALL, "Russian");
 	
 	 //Флаговая переменная для выхода из главного цикла
 	bool flag = false;
