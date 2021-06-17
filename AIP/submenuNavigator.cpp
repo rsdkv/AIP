@@ -184,7 +184,8 @@ bool CipherMenuNavigator(int userChoice) {
 		return false;
 	case 3:
 		system("cls"); // очищаем меню
-		//третий шифр 
+		//шифр Виженера
+		InfoAboutVizhner();
 		return false;
 	case 4:
 		system("cls"); // очищаем меню
