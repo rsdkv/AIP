@@ -1,0 +1,12 @@
+C:/Users/Roberto/source/repos/AIP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Roberto/source/repos/AIP/cmake-build-debug/CMakeFiles/test.dir
+C:/Users/Roberto/source/repos/AIP/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Roberto/source/repos/AIP/cmake-build-debug/external/doctest/CMakeFiles/rebuild_cache.dir
+C:/Users/Roberto/source/repos/AIP/cmake-build-debug/external/doctest/CMakeFiles/test.dir
+C:/Users/Roberto/source/repos/AIP/cmake-build-debug/external/doctest/CMakeFiles/doctest.dir
+C:/Users/Roberto/source/repos/AIP/cmake-build-debug/external/doctest/CMakeFiles/edit_cache.dir
+C:/Users/Roberto/source/repos/AIP/cmake-build-debug/AIP/CMakeFiles/rebuild_cache.dir
+C:/Users/Roberto/source/repos/AIP/cmake-build-debug/AIP/CMakeFiles/test.dir
+C:/Users/Roberto/source/repos/AIP/cmake-build-debug/AIP/CMakeFiles/AIP.dir
+C:/Users/Roberto/source/repos/AIP/cmake-build-debug/AIP/CMakeFiles/AIP_test.dir
+C:/Users/Roberto/source/repos/AIP/cmake-build-debug/AIP/CMakeFiles/edit_cache.dir

@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/Roberto/source/repos/AIP/cmake-build-debug/AIP/AIP_test_tests-b858cb2.cmake")
+  include("C:/Users/Roberto/source/repos/AIP/cmake-build-debug/AIP/AIP_test_tests-b858cb2.cmake")
+else()
+  add_test(AIP_test_NOT_BUILT-b858cb2 AIP_test_NOT_BUILT-b858cb2)
+endif()
