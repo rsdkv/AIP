@@ -10,17 +10,17 @@
 
 void CoderMenu() {
 
-	// Пока пользователь не нажал кнопку "выход"
+	// РџРѕРєР° РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ РЅРµ РЅР°Р¶Р°Р» РєРЅРѕРїРєСѓ "РІС‹С…РѕРґ"
 	bool flag = false;
 	while (flag == false) {
 
-		// Печатаем меню
+		// РџРµС‡Р°С‚Р°РµРј РјРµРЅСЋ
 		PrintMenu(2);
 
-		// Считывем ввод пользователя
+		// РЎС‡РёС‚С‹РІРµРј РІРІРѕРґ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ
 		int userChoice = UserInput(1, 4);
 
-		// Переходим туда, куда выбрал пользователь
+		// РџРµСЂРµС…РѕРґРёРј С‚СѓРґР°, РєСѓРґР° РІС‹Р±СЂР°Р» РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ
 		if (CoderMenuNavigator(userChoice) == true) {
 			flag = true;
 		}
@@ -30,17 +30,17 @@ void CoderMenu() {
 
 void DecoderMenu() {
 
-	// Пока пользователь не нажал кнопку "выход"
+	// РџРѕРєР° РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ РЅРµ РЅР°Р¶Р°Р» РєРЅРѕРїРєСѓ "РІС‹С…РѕРґ"
 	bool flag = false;
 	while (flag == false) {
 
-		// Печатаем меню
+		// РџРµС‡Р°С‚Р°РµРј РјРµРЅСЋ
 		PrintMenu(3);
 
-		// Считывем ввод пользователя
+		// РЎС‡РёС‚С‹РІРµРј РІРІРѕРґ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ
 		int userChoice = UserInput(1, 4);
 
-		// Переходим туда, куда выбрал пользователь
+		// РџРµСЂРµС…РѕРґРёРј С‚СѓРґР°, РєСѓРґР° РІС‹Р±СЂР°Р» РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ
 		if (DecoderMenuNavigator(userChoice) == true) {
 			flag = true;
 		}
@@ -50,17 +50,17 @@ void DecoderMenu() {
 
 void AllCoders() {
 
-	// Пока пользователь не нажал кнопку "выход"
+	// РџРѕРєР° РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ РЅРµ РЅР°Р¶Р°Р» РєРЅРѕРїРєСѓ "РІС‹С…РѕРґ"
 	bool flag = false;
 	while (flag == false) {
 
-		// Печатаем меню
+		// РџРµС‡Р°С‚Р°РµРј РјРµРЅСЋ
 		PrintMenu(4);
 
-		// Считывем ввод пользователя
+		// РЎС‡РёС‚С‹РІРµРј РІРІРѕРґ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ
 		int userChoice = UserInput(1, 4);
 
-		// Переходим туда, куда выбрал пользователь
+		// РџРµСЂРµС…РѕРґРёРј С‚СѓРґР°, РєСѓРґР° РІС‹Р±СЂР°Р» РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ
 		if (CipherMenuNavigator(userChoice) == true) {
 			flag = true;
 		}
@@ -72,20 +72,20 @@ bool MainMenuNavigator(int userChoice) {
 	switch (userChoice)
 	{
 	case 1:
-		//меню шифрования текста 
-		system("cls"); // очищаем меню
+		//РјРµРЅСЋ С€РёС„СЂРѕРІР°РЅРёСЏ С‚РµРєСЃС‚Р° 
+		system("cls"); // РѕС‡РёС‰Р°РµРј РјРµРЅСЋ
 		CoderMenu();
 		return false;
 	case 2:
-		system("cls"); // очищаем меню
-		DecoderMenu();//меню дешифрования текста 
+		system("cls"); // РѕС‡РёС‰Р°РµРј РјРµРЅСЋ
+		DecoderMenu();//РјРµРЅСЋ РґРµС€РёС„СЂРѕРІР°РЅРёСЏ С‚РµРєСЃС‚Р° 
 		return false;
 	case 3:
-		system("cls"); // очищаем меню
-		AllCoders(); //меню шифров 
+		system("cls"); // РѕС‡РёС‰Р°РµРј РјРµРЅСЋ
+		AllCoders(); //РјРµРЅСЋ С€РёС„СЂРѕРІ 
 		return false;
 	case 4:
-		//выход
+		//РІС‹С…РѕРґ
 		return true;
 	default:
 		return false;
@@ -97,23 +97,23 @@ bool CoderMenuNavigator(int userChoice) {
 	switch (userChoice)
 	{
 	case 1:
-		//шифр цезаря
-		system("cls"); // очищаем меню
-		Caesar(); // вызываем шифр Цезаря 
+		//С€РёС„СЂ С†РµР·Р°СЂСЏ
+		system("cls"); // РѕС‡РёС‰Р°РµРј РјРµРЅСЋ
+		Caesar(); // РІС‹Р·С‹РІР°РµРј С€РёС„СЂ Р¦РµР·Р°СЂСЏ 
 		return false;
 	case 2:
-		// Шифр Вернама
-		system("cls"); // очищаем меню
+		// РЁРёС„СЂ Р’РµСЂРЅР°РјР°
+		system("cls"); // РѕС‡РёС‰Р°РµРј РјРµРЅСЋ
 		Vernam();
 		return false;
 	case 3:
-		// Шифр Виженера
-		system("cls"); // очищаем меню
+		// РЁРёС„СЂ Р’РёР¶РµРЅРµСЂР°
+		system("cls"); // РѕС‡РёС‰Р°РµРј РјРµРЅСЋ
 		Vizhner();
 		return false;;
 	case 4:
-		system("cls"); // очищаем меню
-		//выход
+		system("cls"); // РѕС‡РёС‰Р°РµРј РјРµРЅСЋ
+		//РІС‹С…РѕРґ
 		return true;
 	default:
 		return false;;
@@ -125,20 +125,20 @@ bool DecoderMenuNavigator(int userChoice) {
 	switch (userChoice)
 	{
 	case 1:
-		system("cls"); // очищаем меню
-		DeCaesar(); //шифр цезаря 
+		system("cls"); // РѕС‡РёС‰Р°РµРј РјРµРЅСЋ
+		DeCaesar(); //С€РёС„СЂ С†РµР·Р°СЂСЏ 
 		return false;
 	case 2:
-		system("cls"); // очищаем меню
-		DeVernam(); // Шифр вернама
+		system("cls"); // РѕС‡РёС‰Р°РµРј РјРµРЅСЋ
+		DeVernam(); // РЁРёС„СЂ РІРµСЂРЅР°РјР°
 		return false;
 	case 3:
-		system("cls"); // очищаем меню
-		DeVizhener(); // Шифр виженера
+		system("cls"); // РѕС‡РёС‰Р°РµРј РјРµРЅСЋ
+		DeVizhener(); // РЁРёС„СЂ РІРёР¶РµРЅРµСЂР°
 		return false;
 	case 4:
-		system("cls"); // очищаем меню
-		//выход
+		system("cls"); // РѕС‡РёС‰Р°РµРј РјРµРЅСЋ
+		//РІС‹С…РѕРґ
 		return true;
 	default:
 		return false;
@@ -150,23 +150,23 @@ bool CipherMenuNavigator(int userChoice) {
 	switch (userChoice)
 	{
 	case 1:
-		system("cls"); // очищаем меню
-		//шифр цезаря 
+		system("cls"); // РѕС‡РёС‰Р°РµРј РјРµРЅСЋ
+		//С€РёС„СЂ С†РµР·Р°СЂСЏ 
 		InfoAboutCaesar();
 		return false;
 	case 2:
-		system("cls"); // очищаем меню
-		//шифр Вернама 
+		system("cls"); // РѕС‡РёС‰Р°РµРј РјРµРЅСЋ
+		//С€РёС„СЂ Р’РµСЂРЅР°РјР° 
 		InfoAboutVernam();
 		return false;
 	case 3:
-		system("cls"); // очищаем меню
-		//шифр Виженера
+		system("cls"); // РѕС‡РёС‰Р°РµРј РјРµРЅСЋ
+		//С€РёС„СЂ Р’РёР¶РµРЅРµСЂР°
 		InfoAboutVizhner();
 		return false;
 	case 4:
-		system("cls"); // очищаем меню
-		//выход
+		system("cls"); // РѕС‡РёС‰Р°РµРј РјРµРЅСЋ
+		//РІС‹С…РѕРґ
 		return true;
 	default:
 		return false;
