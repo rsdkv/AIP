@@ -36,7 +36,7 @@ void AllCoders() {
 			flag = true;
 		}
 	}
-
+}
 
 
 bool MainMenuNavigator(int userChoice) {
@@ -66,7 +66,7 @@ bool CoderMenuNavigator(int userChoice) {
 	{
 	case 1:
 		//шифр цезаря 
-		std::cout<< "Шифр Цезаря\n";
+		std::cout << "Шифр Цезаря\n";
 		system("cls"); // очищаем меню
 		Caesar(); // вызываем шифр Цезаря 
 		return false;
@@ -76,7 +76,7 @@ bool CoderMenuNavigator(int userChoice) {
 		return false;
 	case 3:
 		system("cls"); // очищаем меню
-		//третий шифр 
+		Vizhner();
 		return false;;
 	case 4:
 		system("cls"); // очищаем меню
@@ -87,7 +87,7 @@ bool CoderMenuNavigator(int userChoice) {
 	}
 }
 
-bool DecoderMenuNavigator(int userChoice){
+bool DecoderMenuNavigator(int userChoice) {
 	switch (userChoice)
 	{
 	case 1:

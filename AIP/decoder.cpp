@@ -82,3 +82,14 @@ void DeVernam(){
 	std::cout << "Зашифрованная строка: \n" << VernamDecode(s, key) << "\n";
 	system("pause>null");
 }
+//std::string VizhnerDecode(std::string message, std::string key) {
+//
+//}
+void DeVizhener() {
+	std::cout << "Введите ключ (любое слово) для дешифрования: \n";
+	std::string key = UserInputText();
+	std::cout << "Введите текст для дешифровки: \n";
+	std::string message = UserInputText();
+	//std::cout << "Дешифрованная строка: \n" << VizhnerDecode(message, key) << "\n";
+
+}

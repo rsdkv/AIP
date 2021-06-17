@@ -39,12 +39,12 @@ void Caesar() {
 
 	system("pause>null");
 }
-int GenRandomKey(int symbol){
+int GenRandomKey(int symbol) {
 
 	int correctKeyVernam = (rand() % 125) + 32;
 	int message = symbol ^ correctKeyVernam;
 
-	while(message < 32 || message >125) {
+	while (message < 32 || message >125) {
 		correctKeyVernam = (rand() % 125) + 32;
 		message = symbol ^ correctKeyVernam;
 	}
@@ -92,11 +92,20 @@ void Vernam() {
 }
 
 
-
-void Vizhener() {
-	std::cout << "Введите строку для шифрования  \n";
-	std::string key = UserInputText(); // ключ для сдвига 
-	std::string s;
-	std::cout << "введите текст\n";
-	std::cin >> s;
+std::string VizhnerCode(std::string message, std::string key) {
+	int lenAlphabet = 94;
+	std::string resultString="";
+	for (int i = 0; i < message.length(); i++)
+	{
+		resultString += (lenAlphabet + ((((message[i] + key[i % key.length()])-32)%94)+32) % lenAlphabet);
+	}
+	return resultString;
+}
+void Vizhner() {
+	std::cout << "Введите ключ (любое слово) для шифрования: \n";
+	std::string key = UserInputText();
+	std::cout << "Введите текст для шифровки: \n";
+	std::string message = UserInputText();
+	std::cout << "Зашифрованная строка: \n" << VizhnerCode(message, key) << "\n";
+	system("pause>null");
 }
