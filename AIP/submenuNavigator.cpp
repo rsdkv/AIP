@@ -7,9 +7,7 @@
 #include "decoder.h"
 #include "allcodersinfo.h"
 
-/// <summary>
-/// Функция осуществляющая вывод меню кодировок и обрабатывающая ввод пользователя
-/// </summary>
+
 void CoderMenu() {
 
 	// Пока пользователь не нажал кнопку "выход"
@@ -29,9 +27,7 @@ void CoderMenu() {
 	}
 }
 
-/// <summary>
-/// Функция осуществляющая вывод меню кодировок и обрабатывающая ввод пользователя
-/// </summary>
+
 void DecoderMenu() {
 
 	// Пока пользователь не нажал кнопку "выход"
@@ -51,9 +47,7 @@ void DecoderMenu() {
 	}
 }
 
-/// <summary>
-/// Функция осуществляющая вывод меню кодировок и обрабатывающая ввод пользователя
-/// </summary>
+
 void AllCoders() {
 
 	// Пока пользователь не нажал кнопку "выход"
@@ -73,11 +67,7 @@ void AllCoders() {
 	}
 }
 
-/// <summary>
-/// Функция обрабатывает ввод и вызывает нужную функцию в зависимости от аргумента
-/// </summary>
-/// <param name="userChoice"> Номер элемента меню, который выбрал пользователь </param>
-/// <returns> True если пользователь нажал "Выход"</returns>
+
 bool MainMenuNavigator(int userChoice) {
 	switch (userChoice)
 	{
@@ -102,11 +92,7 @@ bool MainMenuNavigator(int userChoice) {
 	}
 }
 
-/// <summary>
-/// Функция обрабатывает ввод и вызывает нужную функцию в зависимости от аргумента
-/// </summary>
-/// <param name="userChoice"> Номер элемента меню, который выбрал пользователь </param>
-/// <returns> True если пользователь нажал "Выход"</returns>
+
 bool CoderMenuNavigator(int userChoice) {
 	switch (userChoice)
 	{
@@ -134,11 +120,6 @@ bool CoderMenuNavigator(int userChoice) {
 	}
 }
 
-/// <summary>
-/// Функция обрабатывает ввод и вызывает нужную функцию в зависимости от аргумента
-/// </summary>
-/// <param name="userChoice"> Номер элемента меню, который выбрал пользователь </param>
-/// <returns> True если пользователь нажал "Выход"</returns>
 
 bool DecoderMenuNavigator(int userChoice) {
 	switch (userChoice)
@@ -164,11 +145,7 @@ bool DecoderMenuNavigator(int userChoice) {
 	}
 }
 
-/// <summary>
-/// Функция обрабатывает ввод и вызывает нужную функцию в зависимости от аргумента
-/// </summary>
-/// <param name="userChoice"> Номер элемента меню, который выбрал пользователь </param>
-/// <returns> True если пользователь нажал "Выход"</returns>
+
 bool CipherMenuNavigator(int userChoice) {
 	switch (userChoice)
 	{

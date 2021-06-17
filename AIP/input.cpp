@@ -8,12 +8,7 @@
 #include "submenuNavigator.h"
 #include <vector>
 
-/// <summary>
-/// Функция считывающая ввод пользователя до тех пор, пока он не введет число от min до max включительно
-/// </summary>
-/// <param name="min"> Минимальная граница числа </param>
-/// <param name="max"> Максимальная граница числа </param>
-/// <returns> Возвращает число, которое ввел пользователь </returns>
+
 int UserInput(int min, int max) {
 
 	// Флаг для выхода из цикла
@@ -46,11 +41,7 @@ int UserInput(int min, int max) {
 	}
 }
 
-/// <summary>
-/// Функция, которая считивает ввод пользователя, до тех пор, пока он не введет символы в диапазое от 32 до 125
-/// от кирилицы я отказался, так как с ней не удобно работать в ASCII
-/// </summary>
-/// <returns></returns>
+
 std::string UserInputText() {
 
 	// Флаг для выхода из цикла
